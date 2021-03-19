@@ -19,7 +19,7 @@
 <body>
 	<!-- Menu -->
 <?php include 'include/menu.php';?>
-
+	<!-- Carousel -->
 <?php include 'include/carousel.php';?>
 
 
