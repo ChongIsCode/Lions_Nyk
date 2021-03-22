@@ -12,7 +12,9 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -38,7 +40,10 @@
             </p>
         </div>
         <div class="quote">
-            Lions International sørger for at hjælpe dem der ikke kan hjælpe sig selv.
+            <div class="quote__line"></div>
+            <div class="quote__text">
+                Lions International sørger for at hjælpe dem der ikke kan hjælpe sig selv.
+            </div>
         </div>
         <div class="header">
             <h1>Lions hjælper</h1>
@@ -52,8 +57,11 @@
                 deklaration om menneskerettigheder og arbejder for samfundsforståelse og fred.
             </p>
         </div>
-        <div class="quote">
-            Lions blev i 2007 kåret af Financial Times som den mest effektive Non Governmental Organization.
+        <div class="quote--right">
+            <div class="quote__line--right"></div>
+            <div class="quote__text--right">
+                Lions blev i 2007 kåret af Financial Times som den mest effektive Non Governmental Organization.
+            </div>
         </div>
         <div class="body">
             <p>
@@ -62,6 +70,8 @@
                 internationale, nationale og lokale formål i nærområdet.
             </p>
         </div
+    </div>
+    <div class="sec2">
         <div class="header">
             <h1>Hvor findes Lions?</h1>
         </div>
@@ -70,14 +80,17 @@
                 <img src="images/lionsmap.png" class="img-fluid" alt="Lions verdenskort">
             </div>
         </div>
-        <ul class="list">
-            <li class="list__item">- Lions oprettet i 1917 i USA</li>
-            <li class="list__item">- Lions kom til Danmark i 1950</li>
-            <li class="list__item">- Lions Nykøbing charteret i 1964</li>
-            <li class="list__item">- I dag er der cirka 45.000 klubber</li>
-            <li class="list__item">- Lions er til stede i mere end 200 lande</li>
-            <li class="list__item">- Hermed typisk 20-40 medlemmer</li>
-        </ul>
+        <div class="quote--list">
+            <div class="quote__line"></div>
+            <ul class="list">
+                <li class="list__item">- Lions oprettet i 1917 i USA</li>
+                <li class="list__item">- Lions kom til Danmark i 1950</li>
+                <li class="list__item">- Lions Nykøbing charteret i 1964</li>
+                <li class="list__item">- I dag er der cirka 45.000 klubber</li>
+                <li class="list__item">- Lions er til stede i mere end 200 lande</li>
+                <li class="list__item">- Hermed typisk 20-40 medlemmer</li>
+            </ul>
+        </div>
         <hr>
         <div class="header">
             <h1>Etik og formål?</h1>
