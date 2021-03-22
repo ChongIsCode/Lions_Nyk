@@ -1,7 +1,65 @@
+$primary-color1: #00338D;
+$primary-color2: #EBB700;
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+body {
+	background-color: #F1F1F1;
+}
+a {
+	text-decoration: none;
+}
+
+.counter_section {
+	padding: 0px 27px;
+	background-color: #ffff;
+
+}
+
+.counter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	.counter__header {
+		color: $primary-color1;
+	}
+
+	.counter__sum {
+		color: $primary-color2;
+	}
+
+	.counter__update{
+		font-size: 10px;
+	}
+
+	hr {
+		width: 270px;
+	}
+	.counter-btn {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+
+		.counter-btn__donate, .counter-btn__donate {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.counter-btn__donate {
+			background-color: $primary-color2;
+			color: #000;
+		}
+		.counter-btn__member {
+			background-color: $primary-color1;
+			color: #ffff;
+
+		}
+	}
 }
 
 h1 {
