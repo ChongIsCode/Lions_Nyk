@@ -9,7 +9,7 @@ $primary-color3: #F1F1F1;
 	font-family: 'Open Sans', sans-serif;
 }
 body {
-	background-color: #F1F1F1;
+	background-color: #ffff;
 }
 
 a {
@@ -50,6 +50,11 @@ a {
 		display: flex;
 		justify-content: space-between;
 
+		.counter-btn__donate, .counter-btn__donate {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.counter-btn__donate {
 			background-color: $primary-color2;
 			color: #000;
@@ -73,6 +78,17 @@ a {
 			border-radius: 6px;
 
 		}
+	}
+}
+
+.info-section {
+	background-color: #ffff;
+	padding: 27px;
+}
+.info {
+
+	img {
+		width: 100%;
 	}
 }
 
@@ -106,6 +122,26 @@ li {
 	max-width: 100%;
 }
 
+.content{
+	background-color: #F1F1F1;
+	text-align: center;
+
+	h3{
+		padding: 10px;
+	}
+
+	img{
+		padding: 5px;
+	}
+
+	p{
+		display: flex;
+		text-align: justify;
+		padding: 10px;
+		justify-content: center;
+		font-size: large;
+
+	}
 .sec1 {
 	margin: 27px;
 }

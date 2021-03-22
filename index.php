@@ -36,6 +36,25 @@
 
 	</div>
 </section>
+<section class="info-section">
+	<div class="info">
+		<h1>Lions Nykøbing</h1>
+		<p>Lions er almindelige mennesker fra alle samfundslag, der nyder at komme sammen og 
+			gøre gode ting. Vi er venlige og generøse mennesker, der ønsker at hjælpe. 
+			Derfor arbejder vi på projekter for at forbedre vores samfund og beskytte miljøet.
+		</p>
+		<img src="images/1.jpg" alt="">
+		<p>Vi får enorm tilfredshed med den viden, 
+			at det vi gør, gør en forskel, og vi nyder fællesskabet, mens vi gør det.
+		</p>
+		<div class="quote">
+            <div class="quote__line"></div>
+            <div class="quote__text">
+                Lions International sørger for at hjælpe dem der ikke kan hjælpe sig selv.
+            </div>
+        </div>
+	</div>
+</section>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
