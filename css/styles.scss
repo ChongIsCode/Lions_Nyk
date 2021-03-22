@@ -16,7 +16,7 @@ a {
 }
 
 .counter_section {
-	padding: 0 27px;
+	padding: 27px;
 	background-color: #ffff;
 }
 
@@ -32,6 +32,7 @@ a {
 
 	.counter__sum {
 		color: $primary-color2;
+		font-size: 40px;
 	}
 
 	.counter__update{
@@ -42,25 +43,40 @@ a {
 		width: 270px;
 	}
 	.counter-btn {
+
+		max-width: 360px;
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
 
-		.counter-btn__donate, .counter-btn__donate {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
 		.counter-btn__donate {
 			background-color: $primary-color2;
 			color: #000;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 25px;
+			height: 60px;
+			width: 160px;
+			border-radius: 6px;
 		}
 		.counter-btn__member {
 			background-color: $primary-color1;
 			color: #ffff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 25px;
+			height: 60px;
+			width: 160px;
+			border-radius: 6px;
 
 		}
 	}
+}
+
+.content{
+	background-color: lightgray;
 }
 
 h1 {

@@ -25,12 +25,12 @@
 <section class="counter_section">
 	<div class="counter">
 		<h5 class="counter__header">Lions Nykøbing har i år indsamlet:</h5>
-		<h1 class="counter__sum">21.401.301 kr</h1>
+		<h2 class="counter__sum">21.401.301 kr</h2>
 		<p class="counter__update">opdateres hvert minut</p>
 		<hr>
 		<div class="counter-btn">
-			<a href="#"><div class="counter-btn__donate"><p>Støt</p></div></a>
-			<a href="#"><div class="counter-btn__member"><p>Bliv medlem</p></div></a>
+			<a href="#"><div class="counter-btn__donate">Støt</div></a>
+			<a href="#"><div class="counter-btn__member">Bliv medlem</div></a>
 		</div>
 
 
