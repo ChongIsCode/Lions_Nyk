@@ -25,16 +25,17 @@
 <div class="OmOs">
     <div class="figure">
         <div class="figure__image">
-            <img src="images/lions.png" class="img-fluid" alt="Lions medlemmer smiler sødt :-)">
+            <img src="images/klubmoede.png" class="img-fluid" alt="Lions medlemmer smiler sødt :-)">
         </div>
     </div>
-    <div class="sec1">
+    <section class="sec1">
         <div class="header">
             <h1>Om Lions Nykøbing</h1>
         </div>
         <div class="body">
             <p>
                 Lions Clubs blev oprettet i USA i 1917 på en tid, hvor mange syntes, at verden behøvede medleven og mindre selvoptagethed.
+                <br>
                 <br>
                 Lions kom derefter til Danmark i 1950, og i d. 02. maj 1964 blev Lions Nykøbing oprettet.
             </p>
@@ -53,6 +54,7 @@
                 Der er mange måde Lions hjælper på. Dette kan blandt andet være indsamlinger til kræft, covid-19
                 eller folk til jul, der ikke har råd til julegaver eller mad.
                 <br>
+                <br>
                 Lions engagerer sig meget i samfundet, dog ikke politisk eller religiøst og har tilsluttet sig FN's
                 deklaration om menneskerettigheder og arbejder for samfundsforståelse og fred.
             </p>
@@ -70,8 +72,8 @@
                 internationale, nationale og lokale formål i nærområdet.
             </p>
         </div
-    </div>
-    <div class="sec2">
+    </section>
+    <section class="sec2">
         <div class="header">
             <h1>Hvor findes Lions?</h1>
         </div>
@@ -93,19 +95,27 @@
         </div>
         <hr>
         <div class="header">
-            <h1>Etik og formål?</h1>
+            <h1>Etik og formål</h1>
         </div>
         <ul class="list--ethics">
             <li class="list__item">> at skabe og opretholde en atmosfære af forståelse mellem verdens folk</li>
+            <br>
             <li class="list__item">> at fremme principperne om en redelig ledelse af samfundet og godt medborgerskab</li>
+            <br>
             <li class="list__item">> at være aktivt interesseret i samfundets medborgerlige, kulturelle, sociale og moralske velfærd</li>
+            <br>
             <li class="list__item">> at forene klubberne i venskab, godt kammeratskab og gensidig forståelse</li>
+            <br>
             <li class="list__item">> at danne et forum til fri drøftelse af alle problemer af almen interesse dog således,
                 at klubbernes medlemmer ikke bør diskutere partipolitik og trosbekendelser</li>
+            <br>
             <li class="list__item">> at opfordre personer til gennem deres medlemskab at tjene samfundet uden personlig
                 økonomisk vinding, at fremme effektivitet og en høj etisk standard i handel, industri, i faglig sammenhæng,
                 samt i offentlig og privat virksomhed</li>
         </ul>
+    </div>
+    <div class="backtotop">
+        SEJ KNAP HER
     </div>
 </div>
 
