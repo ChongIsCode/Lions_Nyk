@@ -73,4 +73,13 @@ li {
 
 .content{
 	background-color: lightgray;
+	text-align: center;
+
+	p{
+		display: flex;
+		text-align: justify;
+		padding: 10px;
+		justify-content: center;
+
+	}
 }

@@ -33,7 +33,7 @@
 </div>
 <div class="content">
     <h3>Internationale relationer<br></h3>
-    <img src="images/3.jpg"width="50%">
+    <img src="images/3.jpg"width="65%">
     <p>Som verdens største private humanitære hjælpeorganisation,<br>
         deltager Lions gennem sit mangfoldige arbejde med internationale <br>
         projekter indenfor følgende hovedområder:<br><br>
@@ -44,7 +44,7 @@
 </div>
 <div class="content">
     <h3>Nordisk Samråds Projekter - NSR<br></h3>
-    <img src="images/3.jpg"width="50%">
+    <img src="images/3.jpg"width="65%">
     <p>På fællesnordisk plan gennemfører Lions<br>
         en række større projekter, kaldet NSR-projekter.<br><br>
 
@@ -54,12 +54,14 @@
 <div class="content">
     <h3>Lions samler donationer til
         kræftens bekæmpelse<br></h3>
-    <img src="images/3.jpg"width="50%">
-    <p1>Helen Keller opfordrede i 1925 lions til at blive "de blindes riddere".<br>
-        Siden da har lions arbejdet rigtig meget med kampen mod unødvendig blindhed<br>
-        og med hjælp til blinde og svagsynede.<br><br>
+    <img src="images/3.jpg"width="65%">
+    <p>Helen Keller opfordrede i 1925 lions til at blive "de blindes riddere".<br>
+        Siden da har lions arbejdet rigtig meget <br>
+        med kampen mod unødvendig blindhed og med hjælp til <br>
+        blinde og svagsynede.<br><br>
 
-        Senest har Lions været med til udviklingen af I-cane, den elektroniske "Hvide stok".<br></p1>
+        Senest har Lions været med til udviklingen af I-cane, <br>
+        den elektroniske "Hvide stok".<br></p>
 </div>
 
 
