@@ -47,6 +47,12 @@
 		<p>Vi får enorm tilfredshed med den viden, 
 			at det vi gør, gør en forskel, og vi nyder fællesskabet, mens vi gør det.
 		</p>
+		<div class="quote">
+            <div class="quote__line"></div>
+            <div class="quote__text">
+                Lions International sørger for at hjælpe dem der ikke kan hjælpe sig selv.
+            </div>
+        </div>
 	</div>
 </section>
 
