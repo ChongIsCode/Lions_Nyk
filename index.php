@@ -97,7 +97,37 @@
 					</div>
 				</div>
 			</div>
-			
+		</div>
+	</div>
+</section>
+
+<section class="news-section">
+	<h2>Nyheder</h2>
+	<div class="news">
+		<h2>Lions giver 1 mio. kr. til 
+			COVID-19 vaccination og 
+			behandling i Afrika
+		</h2>
+		<img src="images/3.jpg" alt="">
+		<p>Covid 19 har ramt hele verden. Mens vi på vores breddegrader har 
+			midlerne til at indkøbe, fordele og udføre vaccinationerne, så står 
+			det anderledes til i f.eks. flere afrikanske lande. Her er det sværere 
+			for regeringerne at sikre adgang til vacciner, og derfor er det vigtigt 
+			at internationale organisationer og civilsamfundet hjælper til.
+		</p>
+	</div>
+	<div class="news">
+		<h2>Lions samler donationer til 
+			kræftens bekæmpelse
+		</h2>
+		<img src="images/3.jpg" alt="">
+		<p>Lions har samlet 700.000kr til organisationen 
+			kræftens bekæmpelse i 2020. 
+			Kræft er en forfærdelig sygdom, som vi den dag i dag, ikke har 
+			fundet en primær løsning til. Denne donation er med til at forske 
+			om yderligere hjælp til at kurere kræft.
+
+		 </p>
 	</div>
 
 </section>
