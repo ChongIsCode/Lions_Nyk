@@ -198,6 +198,7 @@ li {
 
 	h3 {
 		padding: 10px;
+		font-weight: bold;
 	}
 
 	img {
@@ -207,10 +208,21 @@ li {
 
 .content p {
 		display: flex;
-		text-align: justify;
+		text-align: left;
 		padding: 10px;
 		justify-content: center;
 		font-size: large;
+	}
+
+@media only screen and (min-width: 768px){
+	.content p {
+		font-size: x-large;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	.content p {
+		font-size: x-large;
 	}
 }
 
