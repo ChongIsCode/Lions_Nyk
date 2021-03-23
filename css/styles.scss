@@ -1,6 +1,6 @@
 $primary-color1: #00338D;
 $primary-color2: #EBB700;
-$primary-color3: #F1F1F1;
+$primary-color3: #ffff;
 
 * {
 	box-sizing: border-box;
@@ -15,7 +15,7 @@ a {
 //* "Live" Counter section *//
 .counter_section {
 	padding: 27px;
-	background-color: #ffff;
+	background-color: $primary-color3;
 }
 
 .counter {
@@ -38,7 +38,7 @@ a {
 	}
 
 	hr {
-		width: 270px;
+		width: 80%;
 	}
 	.counter-btn {
 
@@ -47,11 +47,6 @@ a {
 		display: flex;
 		justify-content: space-between;
 
-		.counter-btn__donate, .counter-btn__donate {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
 		.counter-btn__donate {
 			background-color: $primary-color2;
 			color: #000;
@@ -60,18 +55,20 @@ a {
 			align-items: center;
 			font-size: 25px;
 			height: 60px;
-			width: 160px;
+			min-width: 110px;
+			max-width: 160px;
 			border-radius: 6px;
 		}
 		.counter-btn__member {
 			background-color: $primary-color1;
-			color: #ffff;
+			color: $primary-color3;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			font-size: 25px;
 			height: 60px;
-			width: 160px;
+			min-width: 110px;
+			max-width: 160px;
 			border-radius: 6px;
 
 		}
@@ -91,6 +88,38 @@ a {
 //* Focus section *//
 .focus-section {
 	background-color: $primary-color3;
+	padding: 0px 27px;
+}
+
+.focus {
+	padding-bottom: 55px;
+
+	.focus__icons {
+		margin-top: 25px;
+
+		.container{
+
+			.row {
+
+				.col {
+
+					.icons {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+
+						img {
+							width: 90px;
+							height: 90px;
+						}
+						h2 {
+							font-size: 19px;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 .content{

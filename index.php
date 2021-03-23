@@ -50,9 +50,15 @@
 		<div class="quote">
             <div class="quote__line"></div>
             <div class="quote__text">
-                Lions International sørger for at hjælpe dem der ikke kan hjælpe sig selv.
+				Vi hjælper, hvor der er brug for hjælp.
             </div>
         </div>
+		<p>Vi hjælper, hvor der er brug for hjælp - i vores egne samfund og over 
+			hele verden - med uovertruffen integritet og energi. Lions Nykøbing er en 
+			del af en global organisation med 1,4 millioner medlemmer i 208 lande og 
+			geografiske regioner. Med denne store arbejdskraft er det ikke underligt, 
+			at medlemmer af Lions Club kan opnå ekstraordinære ting hver dag.
+		</p>
 	</div>
 </section>
 <section class="focus-section">
@@ -60,7 +66,38 @@
 		<h1 class="focus__header">Vores mærkesager</h1>
 		<div class="focus__icons">
 		
-		</div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="icons">
+							<img src="images/2.jpg" alt="">
+							<h2>Ungdom</h2>
+						</div>	
+					</div>
+
+					<div class="col">
+						<div class="icons">
+						<img src="images/2.jpg" alt="">
+						<h2>Miljøet</h2></div>
+					</div>
+
+					<div class="w-100"></div>
+
+					<div class="col">
+						<div class="icons">
+						<img src="images/2.jpg" alt="">
+						<h2>Hungersnød</h2></div>
+					</div>
+
+					<div class="col">
+						<div class="icons">
+							<img src="images/2.jpg" alt="">
+							<h2>Humentær hjælp</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 	</div>
 
 </section>
