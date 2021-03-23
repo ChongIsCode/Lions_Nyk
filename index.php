@@ -50,10 +50,86 @@
 		<div class="quote">
             <div class="quote__line"></div>
             <div class="quote__text">
-                Lions International sørger for at hjælpe dem der ikke kan hjælpe sig selv.
+				Vi hjælper, hvor der er brug for hjælp.
             </div>
         </div>
+		<p>Vi hjælper, hvor der er brug for hjælp - i vores egne samfund og over 
+			hele verden - med uovertruffen integritet og energi. Lions Nykøbing er en 
+			del af en global organisation med 1,4 millioner medlemmer i 208 lande og 
+			geografiske regioner. Med denne store arbejdskraft er det ikke underligt, 
+			at medlemmer af Lions Club kan opnå ekstraordinære ting hver dag.
+		</p>
 	</div>
+</section>
+<section class="focus-section">
+	<div class="focus">
+		<h1 class="focus__header">Vores mærkesager</h1>
+		<div class="focus__icons">
+		
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="icons">
+							<img src="images/2.jpg" alt="">
+							<h2>Ungdom</h2>
+						</div>	
+					</div>
+
+					<div class="col">
+						<div class="icons">
+						<img src="images/2.jpg" alt="">
+						<h2>Miljøet</h2></div>
+					</div>
+
+					<div class="w-100"></div>
+
+					<div class="col">
+						<div class="icons">
+						<img src="images/2.jpg" alt="">
+						<h2>Hungersnød</h2></div>
+					</div>
+
+					<div class="col">
+						<div class="icons">
+							<img src="images/2.jpg" alt="">
+							<h2>Humentær hjælp</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="news-section">
+	<h2>Nyheder</h2>
+	<div class="news">
+		<h2>Lions giver 1 mio. kr. til 
+			COVID-19 vaccination og 
+			behandling i Afrika
+		</h2>
+		<img src="images/3.jpg" alt="">
+		<p>Covid 19 har ramt hele verden. Mens vi på vores breddegrader har 
+			midlerne til at indkøbe, fordele og udføre vaccinationerne, så står 
+			det anderledes til i f.eks. flere afrikanske lande. Her er det sværere 
+			for regeringerne at sikre adgang til vacciner, og derfor er det vigtigt 
+			at internationale organisationer og civilsamfundet hjælper til.
+		</p>
+	</div>
+	<div class="news">
+		<h2>Lions samler donationer til 
+			kræftens bekæmpelse
+		</h2>
+		<img src="images/3.jpg" alt="">
+		<p>Lions har samlet 700.000kr til organisationen 
+			kræftens bekæmpelse i 2020. 
+			Kræft er en forfærdelig sygdom, som vi den dag i dag, ikke har 
+			fundet en primær løsning til. Denne donation er med til at forske 
+			om yderligere hjælp til at kurere kræft.
+
+		 </p>
+	</div>
+
 </section>
 
 

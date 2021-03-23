@@ -16,12 +16,11 @@ body {
 a {
 	text-decoration: none;
 }
-
+//* "Live" Counter section *//
 .counter_section {
 	padding: 27px;
 	background-color: #ffff;
 }
-
 .counter {
 	display: flex;
 	flex-direction: column;
@@ -42,7 +41,7 @@ a {
 	}
 
 	hr {
-		width: 270px;
+		width: 80%;
 	}
 
 	.counter-btn {
@@ -51,11 +50,6 @@ a {
 		display: flex;
 		justify-content: space-between;
 
-		.counter-btn__donate, .counter-btn__donate {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
 		.counter-btn__donate {
 			background-color: $primary-color2;
 			color: #000;
@@ -64,24 +58,26 @@ a {
 			align-items: center;
 			font-size: 25px;
 			height: 60px;
-			width: 160px;
+			min-width: 110px;
+			max-width: 160px;
 			border-radius: 6px;
 		}
 		.counter-btn__member {
 			background-color: $primary-color1;
-			color: #ffff;
+			color: $primary-color3;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			font-size: 25px;
 			height: 60px;
-			width: 160px;
+			min-width: 110px;
+			max-width: 160px;
 			border-radius: 6px;
 
 		}
 	}
 }
-
+//* Info section *//
 .info-section {
 	background-color: #ffff;
 	padding: 27px;
@@ -91,6 +87,72 @@ a {
 
 	img {
 		width: 100%;
+	}
+}
+//* Focus section *//
+.focus-section {
+	background-color: $primary-color3;
+	padding: 0px 27px;
+}
+.focus {
+	padding-bottom: 55px;
+
+	.focus__icons {
+		margin-top: 25px;
+
+		.container{
+
+			.row {
+
+				.col {
+
+					.icons {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+
+						img {
+							width: 90px;
+							height: 90px;
+						}
+						h2 {
+							font-size: 19px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+//* News sektion *//
+.news-section {
+	background-color: #F1F1F1;
+	padding: 27px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	h2 {
+		padding: 25px 0px;
+
+	}
+
+}
+
+.news {
+	background: #ffff;
+	padding: 12px;
+	margin-bottom: 35px;
+
+	h2 {
+		font-size: 20px;
+	}
+	img {
+		width: 100%;
+		margin-bottom: 18px;
+	}
+	p {
+		font-size: 12px;
 	}
 }
 
@@ -149,6 +211,7 @@ li {
 		padding: 10px;
 		justify-content: center;
 		font-size: large;
+	}
 }
 
 .sec1 {
