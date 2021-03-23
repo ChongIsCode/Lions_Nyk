@@ -137,7 +137,7 @@
 	<h1>Sammen er vi stærkere</h1>
 	<img src="images/3.jpg" alt="">
 	<div>
-		<h1>Mange bække små gør en stor å</h1>
+		<h1 class="small-header">Mange bække små gør en stor å</h1>
 		<p>Her hos Lions Nykøbing har vi brug for din hjælp.
 			Som medlem af Lions kan du hjælpe hvor der er mest brug for 
 			det i Guldborgsund Kommune, om end det er for dem uden hjem, 

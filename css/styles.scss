@@ -37,10 +37,11 @@ a {
 
 	hr {
 		width: 80%;
+		max-width: 320px;
 	}
 
 	.counter-btn {
-		max-width: 360px;
+		max-width: 320px;
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
@@ -55,6 +56,7 @@ a {
 			height: 60px;
 			min-width: 110px;
 			max-width: 160px;
+			padding: 5px;
 			border-radius: 6px;
 		}
 		.counter-btn__member {
@@ -67,6 +69,7 @@ a {
 			height: 60px;
 			min-width: 110px;
 			max-width: 160px;
+			padding: 5px;
 			border-radius: 6px;
 
 		}
@@ -75,7 +78,7 @@ a {
 //* Info section *//
 .info-section {
 	background-color: #ffff;
-	padding: 27px;
+	padding: 0px 27px;
 }
 
 .info {
@@ -86,11 +89,10 @@ a {
 }
 //* Focus section *//
 .focus-section {
-	background-color: $primary-color3;
+	background-color: #ffff;
 	padding: 0px 27px;
 }
 .focus {
-	padding-bottom: 55px;
 
 	.focus__icons {
 		margin-top: 25px;
@@ -122,21 +124,18 @@ a {
 //* News sektion *//
 .news-section {
 	background-color: #F1F1F1;
-	padding: 27px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	h2 {
-		padding: 25px 0px;
-
-	}
+	padding: 0px 27px;
 }
 .news {
 	background: #ffff;
-	padding: 12px;
 	margin-bottom: 35px;
+	padding: 12px;
 
 	h2 {
+		margin-top: 0;
 		font-size: 20px;
 	}
 	img {
@@ -149,10 +148,27 @@ a {
 }
 //* Lions section *//
 .lions-section {
-	background-color: $primary-color1;
-	height: 2px;
+	background-color: #0D2240;
+	padding-top: 20px;
 	h1 {
+		margin-top: 0;
 		color: #ffff;
+		font-size: 30px;
+		padding: 0px 27px;
+	}
+	img {
+		width: 100%;
+	}
+	.small-header {
+		padding: 0;
+		padding: 0px 27px;
+		margin-top: 14px;
+		font-size: 14px;
+	}
+	p {
+		color: #ffff;
+		padding: 0px 27px;
+		margin-bottom: 0;
 	}
 }
 
