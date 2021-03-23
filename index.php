@@ -36,6 +36,7 @@
 
 	</div>
 </section>
+
 <section class="info-section">
 	<div class="info">
 		<h1>Lions Nykøbing</h1>
@@ -61,6 +62,7 @@
 		</p>
 	</div>
 </section>
+
 <section class="focus-section">
 	<div class="focus">
 		<h1 class="focus__header">Vores mærkesager</h1>
@@ -129,7 +131,20 @@
 
 		 </p>
 	</div>
+</section>
 
+<section class="lions-section">
+	<h1>Sammen er vi stærkere</h1>
+	<img src="images/3.jpg" alt="">
+	<div>
+		<h1>Mange bække små gør en stor å</h1>
+		<p>Her hos Lions Nykøbing har vi brug for din hjælp.
+			Som medlem af Lions kan du hjælpe hvor der er mest brug for 
+			det i Guldborgsund Kommune, om end det er for dem uden hjem, 
+			for dem uden mad, eller dem der ikke kan hjælpe sig selv
+			100% af alle donationer går udelukkende til humanitære forhold.
+		</p>
+	</div>
 </section>
 
 
