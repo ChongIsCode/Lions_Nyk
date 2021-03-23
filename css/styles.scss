@@ -8,6 +8,7 @@ $primary-color3: #F1F1F1;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+
 body {
 	background-color: #ffff;
 }
@@ -43,8 +44,8 @@ a {
 	hr {
 		width: 270px;
 	}
-	.counter-btn {
 
+	.counter-btn {
 		max-width: 360px;
 		width: 100%;
 		display: flex;
@@ -85,6 +86,7 @@ a {
 	background-color: #ffff;
 	padding: 27px;
 }
+
 .info {
 
 	img {
@@ -123,7 +125,7 @@ li {
 }
 
 .content{
-	background-color: #F1F1F1;
+	background-color: $primary-color3;
 	text-align: center;
 
 	h3{
@@ -140,8 +142,8 @@ li {
 		padding: 10px;
 		justify-content: center;
 		font-size: large;
-
 	}
+
 .sec1 {
 	margin: 27px;
 }
