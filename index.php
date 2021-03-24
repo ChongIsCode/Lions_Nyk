@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>Sigende titel</title>
+	<title>Lions Nykøbing</title>
 	
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
@@ -24,14 +24,15 @@
 <body>
 	<!-- Menu -->
 <?php include 'include/menu.php';?>
-	<!-- Carousel -->
+
 <section class="front-page">
 	<div class="front-content">
 		<div class="front-content__main">Lions</div>
 		<div class="front-content__main">Nykøbing</div>
 		<p class="front-content__second">Vi hjælper.<br> sammen er vi stærkere</p>
+		<a href="aktiviteter.php"><div class="front-content__btn">Find ud af hvordan</div></a>
 	</div>
-	<a href="#"><div class="front-content__btn">Find ud af hvordan</div></a>
+	
 </section>
 
 <section class="counter_section sec1">
@@ -41,8 +42,8 @@
 		<p class="counter__update">opdateres hvert minut</p>
 		<hr>
 		<div class="counter-btn">
-			<a href="#"><div class="counter-btn__donate">Støt</div></a>
-			<a href="#"><div class="counter-btn__member">Bliv medlem</div></a>
+			<a href="donerindex.php"><div class="counter-btn__donate">Støt</div></a>
+			<a href="medlemindex.php"><div class="counter-btn__member">Bliv medlem</div></a>
 		</div>
 
 
@@ -90,11 +91,11 @@
 				</div>
 				<div class="icons">
 					<img class="icon" src="images/lions-ikoner/hungersnød.png" alt="">
-					<h2>Miljøet</h2>
+					<h2>hungersnød</h2>
 				</div>
 				<div class="icons">
 					<img class="icon" src="images/lions-ikoner/humanitær.png" alt="">
-					<h2>Miljøet</h2>
+					<h2>humanitær Hjælp</h2>
 				</div>
 			</div>
 		</div>
@@ -132,7 +133,7 @@
 </section>
 
 <section class="lions-section sec2">
-	<h1>Sammen er vi stærkere</h1>
+	<h2>Sammen er vi stærkere</h2>
 	<img src="images/lions.png" alt="">
 	<div>
 		<h1 class="small-header">Mange bække små gør en stor å</h1>
@@ -146,9 +147,12 @@
 </section>
 
 <section class="km-section">
-	<h3 class="sec1">Vil du se mere af hvad vi laver?</h3>
+	<h2 class="sec1">Vil du se mere af hvad vi laver?</h2>
 	<?php include 'include/card-carousel.php';?>
 </section>
+
+<!-- Tilbage til top knap -->
+<?php include 'include/backtotop.php';?>
 
 <!-- Footer -->
 <?php include 'include/footer.php';?>

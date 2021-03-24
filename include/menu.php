@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<nav class="navbar navbar-expand-md navbar-light bg-white">
   <div class="container">
-    <a class="navbar-brand" href="">
+    <a class="navbar-brand" href="index.php">
       <img src="images/logo.png" alt="" height="60"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -8,13 +8,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Forside</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="omosindex.php">Om Lions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="nyhedindex.php">Nyheder</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aktiviteter.php">aktiviteter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontaktindex.php">kontakt</a>
         </li>
       </ul>
     </div>
