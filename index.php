@@ -159,6 +159,8 @@
 	<?php include 'include/card-carousel.php';?>
 </section>
 
+<!-- Footer -->
+<?php include 'include/footer.php';?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
