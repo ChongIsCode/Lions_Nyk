@@ -437,6 +437,17 @@ footer {
 	background-color: $primary-color3;
 }
 
+.headercontent{
+	padding-left: 40px;
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
+	text-underline-offset: 9px;
+	text-decoration-color: $primary-color2;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
 .figure__image {
 	max-width: 100%;
 }

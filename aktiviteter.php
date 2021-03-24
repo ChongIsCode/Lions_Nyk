@@ -30,7 +30,7 @@
 <body>
 <?php include 'include/menu.php';?>
 
-<div class="header">
+<div class="headercontent">
     <h1>Det gør vi</h1>
 </div>
 <div class="content">
