@@ -225,7 +225,7 @@
             </label>
         </div>
     </section>
-    <div class="continue">
+    <div class="page-button">
         <button type="button" class="btn btn-primary btn-lg">Fortsæt til betaling</button>
     </div>
 </div>

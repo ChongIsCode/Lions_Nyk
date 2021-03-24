@@ -116,7 +116,7 @@ footer {
 	font-size: 0.9rem;
 }
 
-.continue {
+.page-button {
 	display: flex;
 	justify-content: center;
 	margin: 40px 0 40px;
@@ -125,7 +125,17 @@ footer {
 .btn-primary {
 	background-color: $primary-color1;
 	color: #ffffff;
-	border-color: none;
+	border: none;
+	font-weight: 700;
+	font-size: 1.5rem;
+	width: 320px;
+	height: 60px;
+}
+
+.btn-secondary {
+	background-color: $primary-color2;
+	color: #000000;
+	border: none;
 	font-weight: 700;
 	font-size: 1.5rem;
 	width: 320px;
