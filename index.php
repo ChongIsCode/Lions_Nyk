@@ -8,11 +8,15 @@
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
-	
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -20,9 +24,11 @@
 	<!-- Menu -->
 <?php include 'include/menu.php';?>
 	<!-- Carousel -->
-<?php include 'include/carousel.php';?>
+<section class="front-page">
+	<img src="images/3.jpg" alt="">
+</section>
 
-<section class="counter_section">
+<section class="counter_section sec1">
 	<div class="counter">
 		<h5 class="counter__header">Lions Nykøbing har i år indsamlet:</h5>
 		<h2 class="counter__sum">21.401.301 kr</h2>
@@ -37,7 +43,7 @@
 	</div>
 </section>
 
-<section class="info-section">
+<section class="info-section sec1">
 	<div class="info">
 		<h1>Lions Nykøbing</h1>
 		<p>Lions er almindelige mennesker fra alle samfundslag, der nyder at komme sammen og 
@@ -63,7 +69,7 @@
 	</div>
 </section>
 
-<section class="focus-section">
+<section class="focus-section sec1">
 	<div class="focus">
 		<h1 class="focus__header">Vores mærkesager</h1>
 		<div class="focus__icons">
@@ -103,7 +109,7 @@
 	</div>
 </section>
 
-<section class="news-section">
+<section class="news-section sec2">
 	<h2>Nyheder</h2>
 	<div class="news">
 		<h2>Lions giver 1 mio. kr. til 
@@ -133,7 +139,7 @@
 	</div>
 </section>
 
-<section class="lions-section">
+<section class="lions-section sec2">
 	<h1>Sammen er vi stærkere</h1>
 	<img src="images/3.jpg" alt="">
 	<div>
@@ -145,6 +151,11 @@
 			100% af alle donationer går udelukkende til humanitære forhold.
 		</p>
 	</div>
+</section>
+
+<section class="km-section sec1">
+	<h3>Vil du se mere af hvad vi laver?</h3>
+	<?php include 'include/card-carousel.php';?>
 </section>
 
 

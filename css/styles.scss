@@ -11,9 +11,14 @@ $primary-color3: #F1F1F1;
 a {
 	text-decoration: none;
 }
+.front-page {
+	img{
+		width: 100%;
+	}
+}
 //* "Live" Counter section *//
 .counter_section {
-	padding: 27px;
+	padding: 27px 0px;
 	background-color: #ffff;
 }
 .counter {
@@ -78,7 +83,6 @@ a {
 //* Info section *//
 .info-section {
 	background-color: #ffff;
-	padding: 0px 27px;
 }
 
 .info {
@@ -90,12 +94,12 @@ a {
 //* Focus section *//
 .focus-section {
 	background-color: #ffff;
-	padding: 0px 27px;
 }
 .focus {
 
 	.focus__icons {
 		margin-top: 25px;
+		max-width: 400px;
 
 		.container{
 
@@ -149,7 +153,7 @@ a {
 //* Lions section *//
 .lions-section {
 	background-color: #0D2240;
-	padding-top: 20px;
+	padding: 20px 0px;
 	h1 {
 		margin-top: 0;
 		color: #ffff;
@@ -171,7 +175,101 @@ a {
 		margin-bottom: 0;
 	}
 }
-
+.km-section {
+	h3 {
+		font-size: 35px;
+		margin-top: 35px;
+		margin-bottom: 13px;
+	}
+	h2 {
+		color: #333;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: 'Noto Sans', sans-serif;
+		font-weight: bold;
+		position: relative;
+		margin: 30px 0 60px;
+	}
+	h2::after {
+		content: "";
+		width: 140px;
+		position: absolute;
+		margin: 0 auto;
+		height: 3px;
+		background: #db584e;
+		left: 0;
+		right: 0;
+		bottom: -10px;
+		opacity: .8;
+	}
+	.col-center {
+		margin: 0 auto;
+		float: none !important;
+	}
+	.carousel {
+		margin: 50px auto;
+		padding: 0 40px;
+	}
+	.carousel-item {
+		background-color: #F1F1F1;
+		padding: 12px;
+		font-size: 14px;
+		overflow: hidden;
+		min-height: 290px;
+	}
+	.carousel .item .img-box {
+		display: flex;
+		justify-content: center;
+	}
+	.carousel .img-box img {
+		width: 100%;
+		display: block;
+	}
+	.carousel .testimonial {
+		padding: 30px 0 10px;
+	}
+	.carousel .overview {	
+		font-style: italic;
+	}
+	.carousel .overview b {
+		text-transform: uppercase;
+		color: #db584e;
+	}
+	.carousel .carousel-control {
+		width: 40px;
+		height: 40px;
+		margin-top: -20px;
+		top: 50%;
+		background: none;
+	}
+	.carousel-control i {
+		font-size: 68px;
+		line-height: 42px;
+		position: absolute;
+		display: inline-block;
+		color: rgba(0, 0, 0, 0.8);
+		text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+	}
+	.carousel .carousel-indicators {
+		bottom: -40px;
+	}
+	.carousel-indicators li, .carousel-indicators li.active {
+		width: 10px;
+		height: 10px;
+		margin: 1px 3px;
+		border-radius: 50%;
+	}
+	.carousel-indicators li {	
+		background: #999;
+		border-color: transparent;
+		box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+	}
+	.carousel-indicators li.active {	
+		background: #555;		
+		box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+	}
+	
+}
 
 .content{
 	background-color: $primary-color3;
@@ -244,23 +342,35 @@ li {
 }
 
 .sec1 {
-	margin-left: 27px;
-	margin-right: 27px;
+	margin: 0px 27px;
+
 }
 
 @media only screen and (min-width: 768px){
 	.sec1 {
-		margin: 130px;
-		margin-top: 0;
+		margin: 0px 130px;
 	}
 }
 
 @media only screen and (min-width: 1024px){
 	.sec1 {
-		margin: 270px;
-		margin-top: 0;
+		margin: 0px 270px;
 	}
 }
+.sec2 {
+	padding: 0px 27px;
+}
+@media only screen and (min-width: 768px) {
+	.sec2 {
+		padding: 0px 130px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.sec2 {
+		padding: 0px 270px;
+	}
+}
+
 
 /* normal kwuoht styling */
 .quote {
