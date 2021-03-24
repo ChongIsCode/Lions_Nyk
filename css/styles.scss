@@ -235,16 +235,19 @@ footer {
 		margin: 0;
 		margin-bottom: 10px;
 		font-weight: 600;
+		font-style: italic;
 	}
 
 	.counter__sum {
 		color: $primary-color2;
 		font-size: 40px;
 		margin: 0;
+		font-weight: 700;
 	}
 
 	.counter__update{
 		font-size: 10px;
+		font-style: italic;
 	}
 
 	hr {
@@ -256,7 +259,7 @@ footer {
 		max-width: 320px;
 		width: 100%;
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		font-weight: 700;
 
 		.counter-btn__donate {

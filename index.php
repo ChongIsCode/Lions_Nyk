@@ -117,7 +117,7 @@
 			at internationale organisationer og civilsamfundet hjælper til.
 		</p>
 	</div>
-	<a href="">
+	<a href="nyhedindex.php">
 		<div class="news">
 			<h2>Lions samler donationer til 
 				kræftens bekæmpelse
