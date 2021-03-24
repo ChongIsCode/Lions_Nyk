@@ -65,6 +65,8 @@
         Senest har Lions været med til udviklingen af I-cane, <br>
         den elektroniske "Hvide stok".<br></p>
 </div>
+<!-- Tilbage til top knap -->
+<?php include 'include/backtotop.php';?>
 
 <!-- Footer -->
 <?php include 'include/footer.php';?>

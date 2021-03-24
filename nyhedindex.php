@@ -47,10 +47,8 @@
             Lions Danmark sørger for at alle pengene går konkret til forskning af kræftens bekæmpelse.<br>
             Vær med til at støtte donationen til kræftens bekæmpelse, eller fremtidige donationer her:<br><br>
 
-        <div class="counter-btn">
-            <a href="#"><div class="counter-btn__donate">Støt</div></a>
-        </div>
-        <br><br>
+            <!-- Tilbage til top knap -->
+            <?php include 'include/backtotop.php';?>
 
         </p>
     </div>
