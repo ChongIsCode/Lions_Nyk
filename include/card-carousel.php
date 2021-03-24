@@ -6,16 +6,19 @@
 				<div class="carousel-inner">
 					<div class="item carousel-item active">
 						<div class="img-box"><img src="images/forside/cardImages.png" alt=""></div>
-						<p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+						<p class="card-title">Plant-et-træ dag</p>
+						<p class="testimonial">Hos Lions er vi stolte af vores årlige plant-et-træ dag, som afholdes den første søndag I maj. Hvis du vil være med, så kan du tilmelde dig fra I næste måned. Hvis du vil læse mere, vil der snart blive lavet et nyt opslag, hvor du kan læse mere om arrangementet. </p>
 					</div>
 					<div class="item carousel-item">
 						<div class="img-box"><img src="images/forside/cardImages.png" alt=""></div>
-						<p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+						<p class="card-title">Plant-et-træ dag</p>
+						<p class="testimonial">Hos Lions er vi stolte af vores årlige plant-et-træ dag, som afholdes den første søndag I maj. Hvis du vil være med, så kan du tilmelde dig fra I næste måned. Hvis du vil læse mere, vil der snart blive lavet et nyt opslag, hvor du kan læse mere om arrangementet. </p>
 
 					</div>
 					<div class="item carousel-item">
 						<div class="img-box"><img src="images/forside/cardImages.png" alt=""></div>
-						<p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+						<p class="card-title">Plant-et-træ dag</p>
+						<p class="testimonial">Hos Lions er vi stolte af vores årlige plant-et-træ dag, som afholdes den første søndag I maj. Hvis du vil være med, så kan du tilmelde dig fra I næste måned. Hvis du vil læse mere, vil der snart blive lavet et nyt opslag, hvor du kan læse mere om arrangementet. </p>
 					</div>
 				</div>
 				<!-- Carousel Controls -->
