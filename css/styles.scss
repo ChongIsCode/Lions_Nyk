@@ -127,10 +127,11 @@ footer {
 
 	hr {
 		width: 80%;
+		max-width: 320px;
 	}
 
 	.counter-btn {
-		max-width: 360px;
+		max-width: 320px;
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
@@ -145,6 +146,7 @@ footer {
 			height: 60px;
 			min-width: 110px;
 			max-width: 160px;
+			padding: 5px;
 			border-radius: 6px;
 		}
 		.counter-btn__member {
@@ -157,6 +159,7 @@ footer {
 			height: 60px;
 			min-width: 110px;
 			max-width: 160px;
+			padding: 5px;
 			border-radius: 6px;
 
 		}
@@ -166,7 +169,7 @@ footer {
 //* Info section *//
 .info-section {
 	background-color: #ffff;
-	padding: 27px;
+	padding: 0px 27px;
 }
 
 .info {
@@ -215,10 +218,10 @@ footer {
 //* News sektion *//
 .news-section {
 	background-color: #F1F1F1;
-	padding: 27px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	padding: 0px 27px;
 
 	h2 {
 		padding: 25px 0;
@@ -228,10 +231,11 @@ footer {
 
 .news {
 	background: #ffff;
-	padding: 12px;
 	margin-bottom: 35px;
+	padding: 12px;
 
 	h2 {
+		margin-top: 0;
 		font-size: 20px;
 	}
 	img {
@@ -245,10 +249,27 @@ footer {
 
 //* Lions section *//
 .lions-section {
-	background-color: $primary-color1;
-	height: 2px;
+	background-color: $secondary-color1;
+	padding-top: 20px;
 	h1 {
+		margin-top: 0;
 		color: #ffff;
+		font-size: 30px;
+		padding: 0px 27px;
+	}
+	img {
+		width: 100%;
+	}
+	.small-header {
+		padding: 0;
+		padding: 0px 27px;
+		margin-top: 14px;
+		font-size: 14px;
+	}
+	p {
+		color: #ffff;
+		padding: 0px 27px;
+		margin-bottom: 0;
 	}
 }
 
@@ -294,6 +315,7 @@ li {
 
 	h3 {
 		padding: 10px;
+		font-weight: bold;
 	}
 
 	img {
@@ -303,10 +325,22 @@ li {
 
 .content p {
 		display: flex;
-		text-align: justify;
+		text-align: left;
 		padding: 10px;
 		justify-content: center;
 		font-size: large;
+	}
+
+@media only screen and (min-width: 768px){
+	.content p {
+		font-size: x-large;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	.content p {
+		font-size: x-large;
+	}
 }
 
 .sec1 {
