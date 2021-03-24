@@ -151,6 +151,9 @@
 	<?php include 'include/card-carousel.php';?>
 </section>
 
+<!-- Tilbage til top knap -->
+<?php include 'include/backtotop.php';?>
+
 <!-- Footer -->
 <?php include 'include/footer.php';?>
 
