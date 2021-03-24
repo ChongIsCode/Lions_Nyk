@@ -17,10 +17,10 @@
           <a class="nav-link" href="nyhedindex.php">Nyheder</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aktiviteter.php">aktiviteter</a>
+          <a class="nav-link" href="aktiviteter.php">Aktiviteter</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="kontaktindex.php">kontakt</a>
+          <a class="nav-link" href="kontaktindex.php">Kontakt</a>
         </li>
       </ul>
     </div>

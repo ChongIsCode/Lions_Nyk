@@ -87,9 +87,9 @@
             </label>
         </div>
     </section>
-    <div class="page-button">
+    <a href="donationthxindex.php" class="page-button">
         <button type="button" class="btn btn-primary btn-lg">Fortsæt</button>
-    </div>
+    </a>
     </div>
 
 <!-- Footer -->

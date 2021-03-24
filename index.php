@@ -30,7 +30,7 @@
 		<div class="front-content__main">Lions</div>
 		<div class="front-content__main">Nykøbing</div>
 		<p class="front-content__second">Vi hjælper.<br> sammen er vi stærkere</p>
-		<a href="aktiviteter.php"><div class="front-content__btn">Find ud af hvordan</div></a>
+		<a href="omosindex.php"><div class="front-content__btn">Find ud af hvordan</div></a>
 	</div>
 	
 </section>
@@ -91,11 +91,11 @@
 				</div>
 				<div class="icons">
 					<img class="icon" src="images/lions-ikoner/hungersnød.png" alt="">
-					<h2>hungersnød</h2>
+					<h2>Hungersnød</h2>
 				</div>
 				<div class="icons">
 					<img class="icon" src="images/lions-ikoner/humanitær.png" alt="">
-					<h2>humanitær Hjælp</h2>
+					<h2>Humanitær Hjælp</h2>
 				</div>
 			</div>
 		</div>

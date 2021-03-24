@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>Bliv sponsor</title>
+	<title>Tak for din donation!</title>
 	
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">

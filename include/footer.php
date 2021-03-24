@@ -20,7 +20,7 @@
             </ul>
         </div>
         <div class="some">
-            <a href="https://www.facebook.com" class="some__fb">
+            <a href="https://www.facebook.com/Lions-Nyk%C3%B8bing-F-722739517762373/" class="some__fb">
                 <img src="images/facebook.png" alt="Link til Facebook" width="34px">
             </a>
             <a href="https://www.instagram.com" class="some__ig">
