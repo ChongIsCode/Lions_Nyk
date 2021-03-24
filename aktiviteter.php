@@ -66,6 +66,8 @@
         den elektroniske "Hvide stok".<br></p>
 </div>
 
+<!-- Footer -->
+<?php include 'include/footer.php';?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
