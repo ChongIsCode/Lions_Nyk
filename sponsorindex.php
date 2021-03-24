@@ -29,6 +29,41 @@
 <body>
 <?php include 'include/menu.php';?>
 
+<div class="sponsor">
+    <h3>Denne side bliver hele tiden opdateret</h3>
+
+    <h2>Vores sponsorere</h2>
+
+    <ul>
+        <li>Skanlux Hosting A/S</li>
+        <li>Glarmester Aage Larsen</li>
+        <li>Lindholm Auto</li>
+        <li>Marius Mortensen Eftf. Slots-garden A/S</li>
+        <li>AJ Consult</li>
+        <li>Xl-byg C.</li>
+        <li>Aarslew Jensen</li>
+        <li>Arbejdernes Landsbank</li>
+        <li>Lollands Bank</li>
+        <li>Kikko</li>
+        <li>Odin Holm</li>
+        <li>Meny Parkvej</li>
+        <li>John Ole Hansen</li>
+        <li>Papir & Kontor-centreret ApS</li>
+        <li>Sonny VVS</li>
+        <li>Frimann Biler</li>
+        <li>Nordea</li>
+        <li>Meny Havnen</li>
+        <li>Toreby Købmandshandel</li>
+        <li>P. Hatten & Co.</li>
+        <li>Colourplus</li>
+        <li>Stark</li>
+        <li>Ejegodslagteren</li>
+        <li>Papaya-Catwalk</li>
+        <li>Beirholm</li>
+        <li>Kvickly</li>
+        <li>Barlund & Marger</li>
+    </ul>
+</div>
 
 <!-- Footer -->
 <?php include 'include/footer.php';?>
