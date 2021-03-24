@@ -30,7 +30,7 @@
 <body>
 <?php include 'include/menu.php';?>
 
-<div class="header">
+<div class="headercontent">
     <h1>Det gør vi</h1>
 </div>
 <div class="content">
@@ -65,7 +65,11 @@
         Senest har Lions været med til udviklingen af I-cane, <br>
         den elektroniske "Hvide stok".<br></p>
 </div>
+<!-- Tilbage til top knap -->
+<?php include 'include/backtotop.php';?>
 
+<!-- Footer -->
+<?php include 'include/footer.php';?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

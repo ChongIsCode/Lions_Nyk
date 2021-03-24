@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>Sigende titel</title>
+	<title>Om Lions</title>
 	
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
@@ -79,7 +79,7 @@
             </p>
         </div
     </section>
-    <section class="sec2">
+    <section class="lions-info">
         <div class="header">
             <h1>Hvor findes Lions?</h1>
         </div>
@@ -120,10 +120,14 @@
                 samt i offentlig og privat virksomhed</li>
         </ul>
     </div>
-    <div class="backtotop">
-        SEJ KNAP HER
-    </div>
-</div>
+
+<!-- Tilbage til top knap -->
+<?php include 'include/backtotop.php';?>
+
+<!-- Footer -->
+<?php include 'include/footer.php';?>
+
+</body>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

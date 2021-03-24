@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>Sigende titel</title>
+	<title>Tilmeld dig</title>
 	
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
@@ -19,7 +19,7 @@
 </head>
 
 <body>
-	<!-- Menu -->
+<!-- Menu -->
 <?php include 'include/menu.php';?>
 
 <div class="OmOs">
@@ -32,8 +32,13 @@
                 Ved at melde dig ind i Lions Nykøbing, kan du gøre en forskel i Guldborgsund Kommune.
                 <br>
                 <br>
-                Som medlem af Lions vil du betale kontigent på 99, kr om måneden. Pengene går ubeskåret til
-                humanitære formål og intet af medlemsbidraget går til administration eller mødeudgifter.
+                Som medlem af Lions vil du betale <span class="p--bold">kontigent på 99, kr om måneden. Pengene går ubeskåret til
+                humanitære formål</span> og intet af medlemsbidraget går til administration eller mødeudgifter.
+                <br>
+                <br>
+                Som medlem kan du deltage i de månedlige møder med bestyrelsen. Her bliver der blandt andet besluttet
+                hvilke indsatsområder der skal igangsættes og prioriteres. Udover dette, kan man også deltage i den
+                årlige generelforsamling.
             </p>
         </div>
         <div class="header">
@@ -220,13 +225,13 @@
             </label>
         </div>
     </section>
-    <div class="backtotop">
-        SEJ KNAP HER
+    <div class="page-button">
+        <button type="button" class="btn btn-primary btn-lg">Fortsæt til betaling</button>
     </div>
 </div>
 
-    <!-- Footer -->
-    <?php include 'include/footer.php';?>
+<!-- Footer -->
+<?php include 'include/footer.php';?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
