@@ -64,6 +64,10 @@
         <li>Barlund & Marger</li>
     </ul>
 </div>
+<br>
+
+<!-- Tilbage til top knap -->
+<?php include 'include/backtotop.php';?>
 
 <!-- Footer -->
 <?php include 'include/footer.php';?>
