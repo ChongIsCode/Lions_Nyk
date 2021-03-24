@@ -120,9 +120,9 @@
                 samt i offentlig og privat virksomhed</li>
         </ul>
     </div>
-    <div class="backtotop">
-        SEJ KNAP HER
-    </div>
+
+<!-- Tilbage til top knap -->
+<?php include 'include/backtotop.php';?>
 
 <!-- Footer -->
 <?php include 'include/footer.php';?>

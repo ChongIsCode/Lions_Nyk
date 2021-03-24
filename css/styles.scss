@@ -59,12 +59,10 @@ footer {
 		padding: 60px 270px 30px 270px;
 	}
 }
-
 	.footer__links {
 		display: flex;
 		justify-content: space-between;
 	}
-
 			.visit__list {
 				display: flex;
 				flex-direction: column;
@@ -72,24 +70,20 @@ footer {
 				justify-content: space-between;
 				height: 50px;
 			}
-
 			.visit__also p {
 				color: white;
 				font-weight: 300;
 				margin-bottom: 10px;
 			}
-
 	.some {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		max-height: 85px;
 	}
-
 		.some__ig {
 			display: flex;
 		}
-
 	.footer__info {
 		display: flex;
 		flex-direction: column;
@@ -97,11 +91,9 @@ footer {
 		justify-content: space-between;
 		padding-top: 10px;
 	}
-
 		.footer__logo {
 			margin-bottom: 15px;
 		}
-
 		.footer__text {
 			display: flex;
 			flex-direction: column;
@@ -111,21 +103,49 @@ footer {
 			font-weight: 300;
 			font-size: 0.95rem;
 		}
-
-			.footer__copyright {
-				color: white;
+			.footer__copyright {color: white;
 			}
 
-			.footer__byline {
-				color: white;
+			.footer__byline {color: white;
 			}
-
 }
 
 .footer li {
 	text-decoration: underline;
 	font-weight: 600;
 	font-size: 0.9rem;
+}
+
+.continue {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0 40px;
+}
+
+.btn-primary {
+	background-color: $primary-color1;
+	color: #ffffff;
+	border-color: none;
+	font-weight: 700;
+	font-size: 1.5rem;
+	width: 320px;
+	height: 60px;
+}
+
+.backtotop {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin: 40px 0 40px;
+
+	.backtotop__text {
+		color: $primary-color1;
+	}
+
+	.backtotop__text {
+		font-weight: 700;
+	}
 }
 
 .front-page {

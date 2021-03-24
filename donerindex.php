@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>Sigende titel</title>
+	<title>Donér til Lions Nykøbing</title>
 	
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
@@ -87,8 +87,8 @@
             </label>
         </div>
     </section>
-    <div class="backtotop">
-        SEJ KNAP HER
+    <div class="continue">
+        <button type="button" class="btn btn-primary btn-lg">Fortsæt</button>
     </div>
 </div>
 

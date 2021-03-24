@@ -225,8 +225,8 @@
             </label>
         </div>
     </section>
-    <div class="backtotop">
-        SEJ KNAP HER
+    <div class="continue">
+        <button type="button" class="btn btn-primary btn-lg">Fortsæt til betaling</button>
     </div>
 </div>
 
