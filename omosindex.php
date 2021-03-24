@@ -34,10 +34,16 @@
         </div>
         <div class="body">
             <p>
-                Lions Clubs blev oprettet i USA i 1917 på en tid, hvor mange syntes, at verden behøvede medleven og mindre selvoptagethed.
+                Lions Clubs blev oprettet i USA i 1917 på en tid, hvor mange syntes, at verden behøvede medleven og
+                mindre selvoptagethed.
                 <br>
                 <br>
                 Lions kom derefter til Danmark i 1950, og i d. 02. maj 1964 blev Lions Nykøbing oprettet.
+                <br>
+                <br>
+                Lions Nykøbing dækker hele Guldborgsund kommune, og her hjælper vi mange forskellige humanitære forhold.
+                Vi arbejder blandt andet med Svanevig Hospice og Værestedet Perronen i Nykøbing. Vi lægger vi meget
+                vægt på kammeratskab, fællesskab og at vi har det hyggeligt og sjovt.
             </p>
         </div>
         <div class="quote">
