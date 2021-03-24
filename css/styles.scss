@@ -495,7 +495,7 @@ footer {
 }
 
 .figure__image {
-	max-width: 100%;
+	width: 100%;
 }
 
 .content {
@@ -741,7 +741,7 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	
+
 	h3 {
 		font-size: 62px;
 		color: $primary-color2;
