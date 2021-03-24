@@ -740,6 +740,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 
 	.donate__info {
 
@@ -753,12 +754,12 @@ footer {
 
 		.page-button--small {
 			display: flex;
-			flex-wrap: wrap;
+			flex-direction: column;
 			justify-content: space-between;
 			height: 100px;
 			width: 100%;
 			max-width: 440px;
-			align-content: space-around;
+			align-items: center;
 			margin: 40px 0 40px;
 
 			/* facebook knap */
@@ -784,6 +785,3 @@ footer {
 			}
 		}
 }
-
-
-
