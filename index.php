@@ -57,7 +57,7 @@
 			gøre gode ting. Vi er venlige og generøse mennesker, der ønsker at hjælpe. 
 			Derfor arbejder vi på projekter for at forbedre vores samfund og beskytte miljøet.
 		</p>
-		<img src="images/forside/info.png" alt="">
+		<img src="images/forside/first-group.png" alt="">
 		<p>Vi får enorm tilfredshed med den viden, 
 			at det vi gør, gør en forskel, og vi nyder fællesskabet, mens vi gør det.
 		</p>
