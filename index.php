@@ -18,6 +18,7 @@
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,13 +26,18 @@
 <?php include 'include/menu.php';?>
 	<!-- Carousel -->
 <section class="front-page">
-	<img src="images/3.jpg" alt="">
+	<div class="front-content">
+		<div class="front-content__main">Lions</div>
+		<div class="front-content__main">Nykøbing</div>
+		<p class="front-content__second">Vi hjælper.<br> sammen er vi stærkere</p>
+	</div>
+	<a href="#"><div class="front-content__btn">Find ud af hvordan</div></a>
 </section>
 
 <section class="counter_section sec1">
 	<div class="counter">
 		<h5 class="counter__header">Lions Nykøbing har i år indsamlet:</h5>
-		<h2 class="counter__sum">21.401.301 kr</h2>
+		<h2 class="counter__sum">9.401.301 kr</h2>
 		<p class="counter__update">opdateres hvert minut</p>
 		<hr>
 		<div class="counter-btn">
@@ -50,7 +56,7 @@
 			gøre gode ting. Vi er venlige og generøse mennesker, der ønsker at hjælpe. 
 			Derfor arbejder vi på projekter for at forbedre vores samfund og beskytte miljøet.
 		</p>
-		<img src="images/1.jpg" alt="">
+		<img src="images/forside/info.png" alt="">
 		<p>Vi får enorm tilfredshed med den viden, 
 			at det vi gør, gør en forskel, og vi nyder fællesskabet, mens vi gør det.
 		</p>
@@ -73,36 +79,22 @@
 	<div class="focus">
 		<h1 class="focus__header">Vores mærkesager</h1>
 		<div class="focus__icons">
-		
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="icons">
-							<img src="images/2.jpg" alt="">
-							<h2>Ungdom</h2>
-						</div>	
-					</div>
-
-					<div class="col">
-						<div class="icons">
-						<img src="images/2.jpg" alt="">
-						<h2>Miljøet</h2></div>
-					</div>
-
-					<div class="w-100"></div>
-
-					<div class="col">
-						<div class="icons">
-						<img src="images/2.jpg" alt="">
-						<h2>Hungersnød</h2></div>
-					</div>
-
-					<div class="col">
-						<div class="icons">
-							<img src="images/2.jpg" alt="">
-							<h2>Humentær hjælp</h2>
-						</div>
-					</div>
+			<div class="icon__wrap">
+				<div class="icons">
+					<img class="icon" src="images/lions-ikoner/ungdom.png" alt="">
+					<h2>Ungdom</h2>
+				</div>
+				<div class="icons">
+					<img class="icon" src="images/lions-ikoner/miljo.png" alt="">
+					<h2>Miljøet</h2>
+				</div>
+				<div class="icons">
+					<img class="icon" src="images/lions-ikoner/hungersnød.png" alt="">
+					<h2>Miljøet</h2>
+				</div>
+				<div class="icons">
+					<img class="icon" src="images/lions-ikoner/humanitær.png" alt="">
+					<h2>Miljøet</h2>
 				</div>
 			</div>
 		</div>
@@ -116,7 +108,7 @@
 			COVID-19 vaccination og 
 			behandling i Afrika
 		</h2>
-		<img src="images/3.jpg" alt="">
+		<img src="images/forside/news1" alt="">
 		<p>Covid 19 har ramt hele verden. Mens vi på vores breddegrader har 
 			midlerne til at indkøbe, fordele og udføre vaccinationerne, så står 
 			det anderledes til i f.eks. flere afrikanske lande. Her er det sværere 
@@ -128,7 +120,7 @@
 		<h2>Lions samler donationer til 
 			kræftens bekæmpelse
 		</h2>
-		<img src="images/3.jpg" alt="">
+		<img src="images/forside/news2" alt="">
 		<p>Lions har samlet 700.000kr til organisationen 
 			kræftens bekæmpelse i 2020. 
 			Kræft er en forfærdelig sygdom, som vi den dag i dag, ikke har 
@@ -141,7 +133,7 @@
 
 <section class="lions-section sec2">
 	<h1>Sammen er vi stærkere</h1>
-	<img src="images/3.jpg" alt="">
+	<img src="images/lions.png" alt="">
 	<div>
 		<h1 class="small-header">Mange bække små gør en stor å</h1>
 		<p>Her hos Lions Nykøbing har vi brug for din hjælp.
@@ -153,11 +145,13 @@
 	</div>
 </section>
 
-<section class="km-section sec1">
-	<h3>Vil du se mere af hvad vi laver?</h3>
+<section class="km-section">
+	<h3 class="sec1">Vil du se mere af hvad vi laver?</h3>
 	<?php include 'include/card-carousel.php';?>
 </section>
 
+<!-- Footer -->
+<?php include 'include/footer.php';?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
