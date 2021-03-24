@@ -15,11 +15,38 @@ a {
 	color: white;
 }
 
+h1 {
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
+	text-underline-offset: 9px;
+	text-decoration-color: $primary-color2;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+h2 {
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+p {
+	font-weight: 500;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style: none;
+}
+
 /* FOOTER */
 footer {
 	background-color: $secondary-color1;
 	padding: 40px 27px 27px;
-}
 
 @media only screen and (min-width: 768px){
 	footer {
@@ -33,73 +60,73 @@ footer {
 	}
 }
 
+	.footer__links {
+		display: flex;
+		justify-content: space-between;
+	}
+
+			.visit__list {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: space-between;
+				height: 50px;
+			}
+
+			.visit__also p {
+				color: white;
+				font-weight: 300;
+				margin-bottom: 10px;
+			}
+
+	.some {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		max-height: 85px;
+	}
+
+		.some__ig {
+			display: flex;
+		}
+
+	.footer__info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 10px;
+	}
+
+		.footer__logo {
+			margin-bottom: 15px;
+		}
+
+		.footer__text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			height: 55px;
+			font-weight: 300;
+			font-size: 0.95rem;
+		}
+
+			.footer__copyright {
+				color: white;
+			}
+
+			.footer__byline {
+				color: white;
+			}
+
+}
 
 .footer li {
 	text-decoration: underline;
 	font-weight: 600;
 	font-size: 0.9rem;
 }
-
-.footer__links {
-	display: flex;
-	justify-content: space-between;
-}
-
-.visit__list {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: space-between;
-	height: 50px;
-}
-
-.visit__also p {
-	color: white;
-	font-weight: 300;
-	margin-bottom: 10px;
-}
-
-.some {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	max-height: 85px;
-}
-
-.some__ig {
-	display: flex;
-}
-
-.footer__info {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	padding-top: 10px;
-}
-
-.footer__logo {
-	margin-bottom: 15px;
-}
-
-.footer__text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	height: 55px;
-	font-weight: 300;
-	font-size: 0.95rem;
-}
-
-.footer__copyright {
-	color: white;
-}
-
-.footer__byline {
-	color: white;
-}
-
 
 .front-page {
 	img{
@@ -226,7 +253,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 0px 27px;
+	padding: 0 27px;
 
 	h2 {
 		padding: 25px 0;
@@ -260,23 +287,23 @@ footer {
 		margin-top: 0;
 		color: #ffff;
 		font-size: 30px;
-		padding: 0px 27px;
+		padding: 0 27px;
 	}
 	img {
 		width: 100%;
 	}
 	.small-header {
-		padding: 0;
-		padding: 0px 27px;
+		padding: 0 27px;
 		margin-top: 14px;
 		font-size: 14px;
 	}
 	p {
 		color: #ffff;
-		padding: 0px 27px;
+		padding: 0 27px;
 		margin-bottom: 0;
 	}
 }
+
 .km-section {
 	h3 {
 		font-size: 35px;
@@ -370,39 +397,10 @@ footer {
 		background: #555;
 		box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 	}
-
 }
 
 .content{
 	background-color: $primary-color3;
-}
-
-h1 {
-	text-decoration: underline;
-	text-decoration-thickness: 4px;
-	text-underline-offset: 9px;
-	text-decoration-color: $primary-color2;
-	font-weight: 700;
-	margin-bottom: 20px;
-	margin-top: 30px;
-}
-
-h2 {
-	font-weight: 600;
-	margin-bottom: 20px;
-	margin-top: 30px;
-}
-
-p {
-	font-weight: 500;
-}
-
-ul {
-	padding-left: 0;
-}
-
-li {
-	list-style: none;
 }
 
 .figure__image {
@@ -443,33 +441,39 @@ li {
 	}
 }
 
+/* MARGIN TIL SKALERING */
 .sec1 {
-	margin: 0px 27px;
+	margin: 0 27px;
 
 }
 
 @media only screen and (min-width: 768px){
 	.sec1 {
-		margin: 0px 130px;
+		margin: 0 130px;
 	}
 }
 
 @media only screen and (min-width: 1024px){
 	.sec1 {
-		margin: 0px 270px;
+		margin: 0 270px;
 	}
 }
+
+
+/* MARGIN TIL SKALERING PÅ SIMONS SIDE */
 .sec2 {
-	padding: 0px 27px;
+	padding: 0 27px;
 }
+
 @media only screen and (min-width: 768px) {
 	.sec2 {
-		padding: 0px 130px;
+		padding: 0 130px;
 	}
 }
+
 @media only screen and (min-width: 1024px) {
 	.sec2 {
-		padding: 0px 270px;
+		padding: 0 270px;
 	}
 }
 
@@ -573,4 +577,32 @@ li {
 
 .input-group {
 	width: 300px;
+}
+
+.input__form {
+	width: 300px;
+}
+
+.h1--special {
+	h1 {
+		text-decoration: none;
+		font-weight: 700;
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+}
+
+.h2--special h2 {
+	font-weight: 700;
+	font-style: italic;
+	margin-bottom: 0;
+	font-size: 1rem;
+}
+
+.header__line {
+	height: 3px;
+	width: 50px;
+	background-color: $primary-color2;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }

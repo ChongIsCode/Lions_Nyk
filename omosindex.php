@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>Sigende titel</title>
+	<title>Om Lions</title>
 	
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
@@ -79,7 +79,7 @@
             </p>
         </div
     </section>
-    <section class="sec2">
+    <section class="lions-info">
         <div class="header">
             <h1>Hvor findes Lions?</h1>
         </div>
@@ -123,7 +123,11 @@
     <div class="backtotop">
         SEJ KNAP HER
     </div>
-</div>
+
+<!-- Footer -->
+<?php include 'include/footer.php';?>
+
+</body>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
