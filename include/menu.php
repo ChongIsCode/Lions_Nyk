@@ -14,9 +14,6 @@
           <a class="nav-link" href="omosindex.php">Om Lions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#news">Nyheder</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="aktiviteter.php">Aktiviteter</a>
         </li>
         <li class="nav-item">
