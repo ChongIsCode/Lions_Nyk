@@ -102,7 +102,7 @@
 	</div>
 </section>
 
-<section class="news-section sec2">
+<section class="news-section sec2" id="news"> 
 	<h2>Nyheder</h2>
 	<div class="news">
 		<h2>Lions giver 1 mio. kr. til 
@@ -117,19 +117,20 @@
 			at internationale organisationer og civilsamfundet hjælper til.
 		</p>
 	</div>
-	<div class="news">
-		<h2>Lions samler donationer til 
-			kræftens bekæmpelse
-		</h2>
-		<img src="images/forside/news2" alt="">
-		<p>Lions har samlet 700.000kr til organisationen 
-			kræftens bekæmpelse i 2020. 
-			Kræft er en forfærdelig sygdom, som vi den dag i dag, ikke har 
-			fundet en primær løsning til. Denne donation er med til at forske 
-			om yderligere hjælp til at kurere kræft.
-
-		 </p>
-	</div>
+	<a href="">
+		<div class="news">
+			<h2>Lions samler donationer til 
+				kræftens bekæmpelse
+			</h2>
+			<img src="images/forside/news2" alt="">
+			<p>Lions har samlet 700.000kr til organisationen 
+				kræftens bekæmpelse i 2020. 
+				Kræft er en forfærdelig sygdom, som vi den dag i dag, ikke har 
+				fundet en primær løsning til. Denne donation er med til at forske 
+				om yderligere hjælp til at kurere kræft.
+			</p>
+	</div></a>
+	
 </section>
 
 <section class="lions-section sec2">
