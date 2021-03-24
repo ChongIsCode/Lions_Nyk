@@ -29,8 +29,31 @@
 <body>
 <?php include 'include/menu.php';?>
 
-<div class="nyhed">
+<div>
+    <img src="images/Kræftens-Bekæmpelse2.jpg" width="100%" class="img-fluid" alt="Dreng der står og modtager penge til donationer">
 
+    <div class="nyhed">
+        <br>
+        <h3>Lions samler donationer til kræftens bekæmpelse</h3><br>
+
+        <p>Lions har samlet 700.000kr til organisationen kræftens bekæmpelse i 2020.<br><br>
+            Kræft er en forfærdelig sygdom, som vi den dag i dag, ikke har fundet en primær løsning til.<br>
+            Denne donation er med til at forske om yderligere hjælp til at kurere kræft.<br><br>
+            Kræft er en sygdom i cellerne, som opstår, hvis cellerne et sted i kroppen begynder at vokse uden kontrol og uden formål. Kræft er også kaldet cancer.<br>
+            I alle kroppens celler findes arvemateriale, som styrer cellens aktivitet. Kræftceller kan udvikle sig, hvis arvematerialet bliver beskadiget og muterer.<br><br>
+            Det kan være en voldsom oplevelse at få at vide, at man har kræft. Det kan hjælpe at dele sin tanker med andre<br>
+            og forsøge at skabe et overblik over sygdom og behandling. Du kan læse mere her:<br>
+            https://www.cancer.dk/hjaelp-viden/hvis-du-har-kraeft/psykiske-reaktioner/<br><br>
+            Lions Danmark sørger for at alle pengene går konkret til forskning af kræftens bekæmpelse.<br>
+            Vær med til at støtte donationen til kræftens bekæmpelse, eller fremtidige donationer her:<br><br>
+
+        <div class="counter-btn">
+            <a href="#"><div class="counter-btn__donate">Støt</div></a>
+        </div>
+        <br><br>
+
+        </p>
+    </div>
 </div>
 
 <!-- Footer -->
